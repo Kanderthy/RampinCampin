@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+	
+	xmlns:gap   = "http://phonegap.com/ns/1.0"
+	id          = "com.phonegap.example"
+	version     = "1.0.0"
+	versionCode = "10" >
+	
+	<!-- versionCode is optional and Andrios d only-->
+	<preference name="phonegap-version" value="3.1.0"/>
+	
+	<!-- Apple device targeting-->
+	<preference name="target-device" value="universal"/>
+	
+	<!-- Full Screen-->
+	<preference name="fullscreen" value="true"/>
+
+	<!--dos not allow scroll beyond content-->
+	<preference name="DisallowOverscroll" value="true"/>
+
+	<!--hides key additional toolbars that appear above keyboard-->
+	<preference name="HideKeyboardFormAccessoryBar" value="true"/>
+
+	
+	<name>Config.xml</name>
+	
+	<description>
+		An example for phonegap build docs.
+	</description>
+	
+	<author href=" https://github.com/Kanderthy"  email="Kanderthy77@gmail.com">
+		Kathy Anderson
+	</author>
+	<!-- Splash Screen -->
+		
+	<gap:splash scr="images/smokey.png" gap:platform="ios" width"320" height="480"/>
+	<gap:splash scr="images/smokey.png" gap:platform="ios" width"640" height="960"/>
+	<gap:splash scr="images/smokey.png" gap:platform="ios" width"640" height="1136"/>
+	<gap:splash scr="images/smokey.png" gap:platform="ios" width"1024" height="748"/>
+	<gap:splash scr="images/smokey.png" gap:platform="ios" width"768" height="1004"/>
+	
+	<!--retina iPad support: PhoneGap 2.5.o+ only -->
+	<gap:splash scr="images/smokey.png" gap:platform="ios" width"2048" height="1496"/>
+	<gap:splash scr="images/smokey.png" gap:platform="ios" width"1536" height="2008"/>
+	
+	</widget>

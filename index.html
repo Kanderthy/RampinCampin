@@ -1,0 +1,611 @@
+    <!doctype html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Rampin Campin</title>
+    
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile.structure-1.4.2.min.css" />
+            
+            <link href="jquery-mobile/Forest.min.css" rel="stylesheet"type="text/css"/>
+            <link href="jquery-mobile/jquery.mobile.icons.min.css" rel="stylesheet"type="text/css"/>
+           
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+     <style >
+     img {max-width:100%;}</style>               
+    
+            
+    </head>
+    <body>
+        <div data-role="page" data theme="a" id="homepage">
+        <div data-role="header">
+            <div class="center-wrapper">
+            
+             <p align="center"><img src="jquery-mobile/images/RClogo.png" alt="CampLogo" /></p>
+                <h1 align="center">Rampin Campin</h1>
+             </div>
+        </div><!-- /header -->
+        
+        
+        <div data-role="content">
+        
+            <h3 align="center">State Forests</h3>
+            <h3 align="center">Recreational Parks Rating System</h3>
+            <p>This app is design to determine is a park is suited for adults or geared for children.
+                Through images and ratings this will aid your camping featuring the best playgrounds for children. Many parks have outstanding activities for all ages this will determine some the best features offered by the parks.</p>
+        <a href="#theParks" data-role="button" data-icon="arrow-r" data-iconpos="right">Enter</a>
+       
+        </div><!-- /content -->
+        
+        <div data-role="footer">
+            <h5>KA. Anderson©2014</h5>
+            </div><!-- /footer -->
+        
+        </div><!-- /page end -->
+   <!--/PAGETWO THE PARKS-------------------------------------------> 
+   
+           
+            
+    <div data-role="page" data-theme="a" data-transition="slideup" id="theParks">
+        <div data-role="header">
+         <div class="center-wrapper">
+                
+                <p align="center"><img src="jquery-mobile/images/mforest.png" alt="Forest Floor" /></p>
+                <h1 align="center">Rampin Campin</h1>
+                <h3 align="center">Rating Our Favorite State Parks</h3>
+        </div>
+        </div>
+        
+        <div data-role="content" >
+        <div data-role="navbar" data-theme="a"><ul>
+            <li><a href="#park1" data-transition="slide"><p>Ohiopyle</p></a></li>
+            <li><a href="#park2"  data-transition="slide"><p>Presquel Isle</p></a></li>
+            <li><a href="#park3"  data-transition="slide"><p>R. B. Winter</p></a></li>
+            <li><a href="#park4"  data-transition="slide"><p>Ricketts Glen</p></a></li>
+            <li><a href="#park5"  data-transition="slide"><p>Worlds End</p></a></li>
+            <li><a href="#compass"data-transition="slide"><p>Compass</p></a></li>
+            
+        </ul></div>
+             
+             <a href="#homepage" data-rel="back" data-role="button" data-icon="home"data-iconpos="left">Back to Home</a>
+         </div><!-- /content -->
+
+             <div data-role="footer">
+                <h5>KA. Anderson©2014</h5>
+            </div><!-- /footer -->
+        
+        </div><!-- /page end -->
+        
+        
+ <!----------------------------PARK1----------------------------------------------------------->
+ 
+        <div data-role="page" data-theme="a" data-transition="slide" id="park1">
+           <div data-role="header">
+       
+                 <div class="center-wrapper">
+                 <a href="#theParks" data-rel="back" data-role="button" data-icon="back"data-iconpos="left">Parks</a>  
+                <p align="center"><img src="jquery-mobile/images/OpyleSign.png" alt="Ohiopyle State Park" /></p>
+               
+                <h1 align="center">Rampin Campin</h1>
+                <h3 align="center">Ohiopyle State Park</h3>
+                
+        </div>
+        </div>
+        <div data-role="content">
+           
+            <h3>Ohiopyle State Park</h3>
+<p>Located at the southern reaches of the Laurel Ridge, Ohiopyle State Park encompasses approximately 20,500 acres of rugged natural beauty and serves as the gateway to the Laurel Highlands. Close to major metropolitan areas and offering vast choices of activities, Ohiopyle State Park attracts millions of visitors annually.</p>
+
+<p>Passing through the heart of the park, the rushing waters of the Youghiogheny [yawki-gay-nee] River Gorge are the center piece for Ohiopyle. The “Yough” [yawk] provides some of the best whitewater boating in the eastern United States, as well as spectacular scenery.</p>
+
+<p>Ohiopyle is the southern gateway into the Laurel Highlands and represents the beautiful natural resources and unique sense of community that visitors can find throughout the region.
+
+</p>
+           
+       <a href="#ratepark1"  data-role="button" data-icon="arrow-r" data-iconpos="right"data-transition="slide">Rate Ohiopyle Park</a>
+       <a href="#homepage" data-rel="back" data-role="button" data-icon="home"data-iconpos="left">Back to Home</a>
+            
+         </div><!-- /content -->
+            <div data-role="footer">
+                <h5>KA. Anderson©2014</h5>
+            </div><!-- /footer -->
+ 
+ </div><!-- /page end -->
+        
+ 
+ 
+ 
+ <!------------------------RATE PARK1--------------------------------------------------------------> 
+    <div data-role="page" data-theme="a" data-transition="slide" id="ratepark1">
+        <div data-role="header">
+       
+                 <div class="center-wrapper">
+                 <a href="#theParks" data-rel="back" data-role="button" data-icon="back"data-iconpos="left">Parks</a>  
+                <p align="center"><img src="jquery-mobile/images/OpyleSign.png" alt="Ohiopyle State Park" /></p>
+               
+                <h1 align="center">Rampin Campin</h1>
+                <h3 align="center">Ohiopyle State Park</h3>
+                <div data-role="page" data-add-back-btn="true" data-back-btn-text="Parks" data-back-btn-theme="a">
+        </div>
+        </div>
+        </div>
+         <div data-role="content" data-theme="a">
+       <form action="thankyou.html" id="commentForm">
+        <div data-role="fieldcontain">
+            <label for="commentName">Name:</label>
+            <input type="text" name="commentName" id="commentName" value=""  />
+        </div>
+        <div data-role="fieldcontain">
+            <label for="commentEmail">Email:</label>
+            <input type="email" name="commentEmail" id="commentEmail" value=""  />
+        </div>
+        
+        <div data-role="fieldcontain" data-theme="a">
+            <fieldset data-role="controlgroup" >
+                <legend>Activities enjoyed:</legend>
+                 <label for="commentFun_0">Biking</label>
+                <input type="checkbox" name="commentFun" id="commentFun_0"  value="Biking" /> 
+               	
+                  <label for="commentFun_1">Boating</label>
+                <input type="checkbox" name="commentFun" id="commentFun_1" value="Boating" />
+              
+                <label for="commentFun_2">Camping</label> 
+                <input type="checkbox" name="commentFun" id="commentFun_2"  value="Camping" />
+                
+                  <label for="commentFun_3">Fishing</label>
+                <input type="checkbox" name="commentFun" id="commentFun_3"  value="Fishing" />
+              
+                 <label for="commentFun_4">Hiking</label>
+                <input type="checkbox" name="commentFun" id="commentFun_4"  value="Hiking" />
+               
+               	 <label for="commentFun_5">Swimming</label>
+                <input type="checkbox" name="commentFun" id="commentFun_5"  value="Swimming" />
+               
+            </fieldset>
+        </div>
+        <div data-role="fieldcontain">
+            <label for="commentRate">Rate this park:</label>
+            <input type="range" name="commentRate" id="commentRate" value="5" min="0" max="10" />
+        </div>
+        
+        
+        <div data-role="fieldcontain">
+            <label for="commentComment">Comments:</label>
+            <textarea cols="40" rows="8" name="commentComment" id="commentComment"></textarea>
+        </div>
+        <input name="commentSubmit" type="submit" id="commentSubmit" value="Submit" data-icon="star" />
+        
+       </form>  
+<a href="#homepage" data-rel="back" data-role="button" data-icon="home"data-iconpos="left">Back to Home</a>
+            
+         </div><!-- /content -->
+
+             <div data-role="footer">
+                <h5>KA. Anderson©2014</h5>
+            </div><!-- /footer -->
+        
+        </div><!-- /page end -->
+        
+ <!----------------------------PARK2-----------------------------------------------------------> 
+ <div data-role="page" data-theme="a" data-transition="slide" id="park2">
+        <div data-role="header">
+        
+                <div class="center-wrapper">
+     <a href="#theParks" data-rel="back" data-role="button" data-icon="back"data-iconpos="left" >Parks</a>  
+                <p align="center"><img src="jquery-mobile/images/PresqueIsle.png" alt="Presquel Isle State Park" /></p>
+                <h1 align="center">Rampin Campin</h1>
+                <h3 align="center">Presquel Isle State Park</h3>
+        </div>
+        </div>
+        <div data-role="content">
+        <h3>Presque Isle State Park </h3>
+           
+            <p>Presque Isle State Park is a 3,200-acre sandy peninsula that arches into Lake Erie. As Pennsylvania's only "seashore," Presque Isle offers its visitors a beautiful coastline and many recreational activities, including swimming, boating, fishing, hiking, bicycling and in-line skating. A National Natural Landmark, Presque Isle is a favorite spot for migrating birds. Because of the many unique habitats, Presque Isle contains a greater number of the state's endangered, threatened and rare species than any other area of comparable size in Pennsylvania.</p>
+            <p>The gateway to Presque Isle is the new Tom Ridge Environmental Center (TREC). An educational center at heart, TREC is dedicated to teaching visitors about Presque Isle and the many different forms of life that inhabit this unique peninsula. TREC also serves as a center for research, contributing to conservation efforts and promoting environmental awareness, helping to preserve the unparalleled beauty of Presque Isle. There is free admission to the interactive exhibits and the 75-foot observation tower.</p>
+           
+  <a href="#ratepark2"  data-role="button" data-icon="arrow-r" data-iconpos="right"data-transition="slide">Rate Presquel Isle Park</a>
+            <a href="#homepage" data-rel="back" data-role="button" data-icon="home"data-iconpos="left">Back to Home</a>
+            
+         </div><!-- /content -->
+            <div data-role="footer">
+                <h5>KA. Anderson©2014</h5>
+            </div><!-- /footer -->
+            
+        </div><!--/pageend-->
+ 
+ 
+ <!----------------------------Rate PARK2-----------------------------------------------------------> 
+    <div data-role="page" data-theme="a" data-transition="slide" id="ratepark2">
+        <div data-role="header">
+        
+                <div class="center-wrapper">
+                <a href="#theParks" data-rel="back" data-role="button" data-icon="back"data-iconpos="left">Parks</a>  
+                <p align="center"><img src="jquery-mobile/images/PresqueIsle.png" alt="Presquel Isle State Park" /></p>
+                <h1 align="center">Rampin Campin</h1>
+                <h3 align="center">Presquel Isle State Park</h3>
+        </div>
+        </div>
+          <div data-role="content" data-theme="a">
+       <form action="thankyou.html" id="commentForm">
+        <div data-role="fieldcontain">
+            <label for="commentName">Name:</label>
+            <input type="text" name="commentName" id="commentName" value=""  />
+        </div>
+        <div data-role="fieldcontain">
+            <label for="commentEmail">Email:</label>
+            <input type="email" name="commentEmail" id="commentEmail" value=""  />
+        </div>
+           
+        <div data-role="fieldcontain" data-theme="a">
+            <fieldset data-role="controlgroup" >
+                <legend>Activities enjoyed:</legend>
+                 <label for="commentFun_0">Biking</label>
+                <input type="checkbox" name="commentFun" id="commentFun_0"  value="Biking" /> 
+               	
+                  <label for="commentFun_1">Boating</label>
+                <input type="checkbox" name="commentFun" id="commentFun_1" value="Boating" />
+              
+                <label for="commentFun_2">Camping</label> 
+                <input type="checkbox" name="commentFun" id="commentFun_2"  value="Camping" />
+                
+                  <label for="commentFun_3">Fishing</label>
+                <input type="checkbox" name="commentFun" id="commentFun_3"  value="Fishing" />
+              
+                 <label for="commentFun_4">Hiking</label>
+                <input type="checkbox" name="commentFun" id="commentFun_4"  value="Hiking" />
+               
+               	 <label for="commentFun_5">Swimming</label>
+                <input type="checkbox" name="commentFun" id="commentFun_5"  value="Swimming" />
+               
+            </fieldset>
+          </div>
+        <div data-role="fieldcontain">
+            <label for="commentRate">Rate this park:</label>
+            <input type="range" name="commentRate" id="commentRate" value="5" min="0" max="10" />
+        </div>
+        
+        
+        <div data-role="fieldcontain">
+            <label for="commentComment">Comments:</label>
+            <textarea cols="40" rows="8" name="commentComment" id="commentComment"></textarea>
+        </div>
+        <input name="commentSubmit" type="submit" id="commentSubmit" value="Submit" data-icon="star" />
+        
+       </form> 
+        
+		<a href="#homepage" data-rel="back" data-role="button" data-icon="home"data-iconpos="left">Back to Home</a>
+            
+         </div><!-- /content -->
+
+             <div data-role="footer">
+                <h5>KA. Anderson©2014</h5>
+            </div><!-- /footer -->
+        
+        </div><!-- /page end -->
+        
+        
+ 
+  
+  
+  
+  <!---------------------------- PARK3-----------------------------------------------------------> 
+  <div data-role="page" data-theme="a" data-transition="slide" id="park3">
+        <div data-role="header">
+         
+                <div class="center-wrapper">
+                <a href="#theParks" data-rel="back" data-role="button" data-icon="back"data-iconpos="left">Parks</a> 
+                <p align="center"><img src="jquery-mobile/images/RBparksign.png" alt="R. B. Winter State Park" /></p>
+                <h1 align="center">Rampin Campin</h1>
+                <h3 align="center">R. B. Winter State Park</h3>
+        </div>
+        </div>
+        <div data-role="content" data-theme="a">
+        <h3>Raymond B. Winter State Park</h3>
+        <p>R.B. Winter State Park covers 695 acres of the Ridge and Valley Province in central Pennsylvania. Located within Bald Eagle State Forest, the park lies in a shallow basin surrounded by rocky ridges covered with an oak and pine forest. The focal point of the park is Halfway Lake, which is filled by spring-fed mountain streams and contained by a hand-laid, native sandstone dam. Open year-round, the park provides diverse opportunities for recreation.</p>
+        
+  <a href="#ratepark3"  data-role="button" data-icon="arrow-r" data-iconpos="right" data-transition="slide">Rate R. B. Winter Park</a>
+        <a href="#page" data-rel="back" data-role="button" data-icon="home"data-iconpos="left">Back to Home</a>
+            
+         </div><!-- /content -->
+
+             <div data-role="footer">
+                <h5>KA. Anderson©2014</h5>
+            </div><!-- /footer -->
+        
+        </div><!-- /page end -->
+  <!----------------------------RATE PARK3-----------------------------------------------------------> 
+    <div data-role="page" data-theme="a" data-transition="slide" id="ratepark3">
+        <div data-role="header">
+         
+                <div class="center-wrapper">
+                <a href="#theParks" data-rel="back" data-role="button" data-icon="back"data-iconpos="left">Parks</a> 
+                <p align="center"><img src="jquery-mobile/images/RBparksign.png" alt="R. B. Winter State Park" /></p>
+                <h1 align="center">Rampin Campin</h1>
+                <h3 align="center">R. B. Winter State Park</h3>
+        </div>
+        </div>
+        <div data-role="content" data-theme="a">
+       <form action="thankyou.html" id="commentForm">
+        <div data-role="fieldcontain">
+            <label for="commentName">Name:</label>
+            <input type="text" name="commentName" id="commentName" value=""  />
+        </div>
+        <div data-role="fieldcontain">
+            <label for="commentEmail">Email:</label>
+            <input type="email" name="commentEmail" id="commentEmail" value=""  />
+        </div>
+           
+        <div data-role="fieldcontain" data-theme="a">
+            <fieldset data-role="controlgroup" >
+                <legend>Activities enjoyed:</legend>
+                 <label for="commentFun_0">Biking</label>
+                <input type="checkbox" name="commentFun" id="commentFun_0"  value="Biking" /> 
+               	
+                  <label for="commentFun_1">Boating</label>
+                <input type="checkbox" name="commentFun" id="commentFun_1" value="Boating" />
+              
+                <label for="commentFun_2">Camping</label> 
+                <input type="checkbox" name="commentFun" id="commentFun_2"  value="Camping" />
+                
+                  <label for="commentFun_3">Fishing</label>
+                <input type="checkbox" name="commentFun" id="commentFun_3"  value="Fishing" />
+              
+                 <label for="commentFun_4">Hiking</label>
+                <input type="checkbox" name="commentFun" id="commentFun_4"  value="Hiking" />
+               
+               	 <label for="commentFun_5">Swimming</label>
+                <input type="checkbox" name="commentFun" id="commentFun_5"  value="Swimming" />
+               
+            </fieldset>
+          </div>
+        <div data-role="fieldcontain">
+            <label for="commentRate">Rate this park:</label>
+            <input type="range" name="commentRate" id="commentRate" value="5" min="0" max="10" />
+        </div>
+        
+        
+        <div data-role="fieldcontain">
+            <label for="commentComment">Comments:</label>
+            <textarea cols="40" rows="8" name="commentComment" id="commentComment"></textarea>
+        </div>
+        <input name="commentSubmit" type="submit" id="commentSubmit" value="Submit" data-icon="star" />
+        
+       </form> 
+        
+		<a href="#homepage" data-rel="back" data-role="button" data-icon="home"data-iconpos="left">Back to Home</a>
+            
+         </div><!-- /content -->
+
+             <div data-role="footer">
+                <h5>KA. Anderson©2014</h5>
+            </div><!-- /footer -->
+        
+        </div><!-- /page end -->
+        
+ <!----------------------------PARK4-----------------------------------------------------------> 
+  <div data-role="page" data-theme="a" data-transition="slide" id="park4">
+        <div data-role="header">
+          
+                <div class="center-wrapper">
+                <a href="#theParks" data-rel="back" data-role="button" data-icon="back"data-iconpos="left">Parks</a> 
+                <p align="center"><img src="jquery-mobile/images/RGlen.png" alt="Ricketts Glen State Park" /></p>
+                <h1 align="center">Rampin Campin</h1>
+                <h3 align="center">Ricketts Glen State Park</h3>
+        </div>
+        </div>
+        <div data-role="content" data-theme="a">
+        <h3>Ricketts Glen State Park</h3>
+        
+        <p>Ricketts Glen harbors Glens Natural Area, a National Natural Landmark. Take the Falls Trail and explore the Glens, which boasts a series of wild, free-flowing waterfalls, each cascading through rock-strewn clefts in this ancient hillside. The 94-foot Ganoga Falls is the highest of 22 named waterfalls. Old growth timber and diverse wildlife add to the scenic area. Ricketts Glen State Park is one of the most scenic areas in Pennsylvania. This large park is comprised of 13,050 acres in Luzerne, Sullivan and Columbia counties.
+
+</p>
+   <a href="#ratepark4"  data-role="button" data-icon="arrow-r" data-iconpos="right" data-transition="slide">Rate Ricketts Glen Park</a>     
+		<a href="#homepage" data-rel="back" data-role="button" data-icon="home"data-iconpos="left">Back to Home</a>
+            
+         </div><!-- /content -->
+
+             <div data-role="footer">
+                <h5>KA. Anderson©2014</h5>
+            </div><!-- /footer -->
+        
+        </div><!-- /page end -->
+ 
+  <!----------------------------RATE PARK4-----------------------------------------------------------> 
+    <div data-role="page" data-theme="a" data-transition="slide" id="ratepark4">
+        <div data-role="header">
+          
+                <div class="center-wrapper">
+                <a href="#theParks" data-rel="back" data-role="button" data-icon="back"data-iconpos="left">Parks</a> 
+                <p align="center"><img src="jquery-mobile/images/RGlen.png" alt="Ricketts Glen State Park" /></p>
+                <h1 align="center">Rampin Campin</h1>
+                <h3 align="center">Ricketts Glen State Park</h3>
+        </div>
+        </div>
+        <div data-role="content" data-theme="a">
+       <form action="thankyou.html" id="commentForm">
+        <div data-role="fieldcontain">
+            <label for="commentName">Name:</label>
+            <input type="text" name="commentName" id="commentName" value=""  />
+        </div>
+        <div data-role="fieldcontain">
+            <label for="commentEmail">Email:</label>
+            <input type="email" name="commentEmail" id="commentEmail" value=""  />
+        </div>
+           
+        <div data-role="fieldcontain" data-theme="a">
+            <fieldset data-role="controlgroup" >
+                <legend>Activities enjoyed:</legend>
+                 <label for="commentFun_0">Biking</label>
+                <input type="checkbox" name="commentFun" id="commentFun_0"  value="Biking" /> 
+               	
+                  <label for="commentFun_1">Boating</label>
+                <input type="checkbox" name="commentFun" id="commentFun_1" value="Boating" />
+              
+                <label for="commentFun_2">Camping</label> 
+                <input type="checkbox" name="commentFun" id="commentFun_2"  value="Camping" />
+                
+                  <label for="commentFun_3">Fishing</label>
+                <input type="checkbox" name="commentFun" id="commentFun_3"  value="Fishing" />
+              
+                 <label for="commentFun_4">Hiking</label>
+                <input type="checkbox" name="commentFun" id="commentFun_4"  value="Hiking" />
+               
+               	 <label for="commentFun_5">Swimming</label>
+                <input type="checkbox" name="commentFun" id="commentFun_5"  value="Swimming" />
+               
+            </fieldset>
+          </div>
+        <div data-role="fieldcontain">
+            <label for="commentRate">Rate this park:</label>
+            <input type="range" name="commentRate" id="commentRate" value="5" min="0" max="10" />
+        </div>
+        
+        
+        <div data-role="fieldcontain">
+            <label for="commentComment">Comments:</label>
+            <textarea cols="40" rows="8" name="commentComment" id="commentComment"></textarea>
+        </div>
+        <input name="commentSubmit" type="submit" id="commentSubmit" value="Submit" data-icon="star" />
+        
+       </form> 
+        
+		<a href="#homepage" data-rel="back" data-role="button" data-icon="home"data-iconpos="left">Back to Home</a>
+            
+         </div><!-- /content -->
+
+             <div data-role="footer">
+                <h5>KA. Anderson©2014</h5>
+            </div><!-- /footer -->
+        
+        </div><!-- /page end -->
+
+ <!----------------------------PARK5-----------------------------------------------------------> 
+ <div data-role="page" data-theme="a" data-transition="slide" id="park5">
+        <div data-role="header">
+          
+                <div class="center-wrapper">
+                <a href="#theParks" data-rel="back" data-role="button" data-icon="back"data-iconpos="left">Parks</a>
+                <p align="center"><img src="jquery-mobile/images/worldEnd.png" alt="Worlds End State Park" /></p>
+                <h1 align="center">Rampin Campin</h1>
+                <h3 align="center">Worlds End State Park</h3>
+        </div>
+        </div>
+        
+        <div data-role="content" data-theme="a">
+        <h3>Worlds End State Park</h3>
+        <p>Worlds End State Park is in a narrow S-shaped valley of the Loyalsock Creek just south of Forksville, Sullivan County. Loyalsock Canyon Vista, reached via Mineral Spring and Cold Run roads, provides outstanding views, especially during fall foliage.</p>
+        <p>“There was even a dispute as to the proper name of the area. Some people called it Worlds End, others Whirl’s Glen, and still others Whirls End. The first name arose from the topography of the place. Seven mountain ranges converge on the point and one does receive the sensation of being at the ultimate ends of the earth. The proponents of the second name base their claim upon the whirlpool in the Loyalsock Creek and the third name was probably a contraction of the other two. Since the whirlpool had largely disappeared, it was decided that the name Worlds End would be the most appropriate. Hence, the name Worlds End State Forest Park.”</p>
+        <p>In 1936, a letter campaign caused the park name to be changed to Whirls End. Another letter campaign forced the matter to be brought to the former State Geographic Board, who supervised the official naming of places. The name was changed back to Worlds End in 1943.</p>
+        
+    <a href="#ratepark5"  data-role="button" data-icon="arrow-r" data-iconpos="right" data-transition="slide">Rate Worlds End Park</a>      
+        <a href="#homepage" data-rel="back" data-role="button" data-icon="home"data-iconpos="left">Back to Home</a>
+            
+         </div><!-- /content -->
+
+             <div data-role="footer">
+                <h5>KA. Anderson©2014</h5>
+            </div><!-- /footer -->
+        
+        </div><!-- /page end -->
+ 
+ 
+ <!----------------------------Rate PARK5-----------------------------------------------------------> 
+    <div data-role="page" data-theme="a" data-transition="slide" id="ratepark5">
+        <div data-role="header">
+          
+                <div class="center-wrapper">
+                <a href="#theParks" data-rel="back" data-role="button" data-icon="back"data-iconpos="left">Parks</a>
+                <p align="center"><img src="jquery-mobile/images/worldEnd.png" alt="Worlds End State Park" /></p>
+                <h1 align="center">Rampin Campin</h1>
+                <h3 align="center">Worlds End State Park</h3>
+        </div>
+        </div>
+        
+        <div data-role="content" data-theme="a">
+       <form action="thankyou.html" id="commentForm">
+        <div data-role="fieldcontain">
+            <label for="commentName">Name:</label>
+            <input type="text" name="commentName" id="commentName" value=""  />
+        </div>
+        <div data-role="fieldcontain">
+            <label for="commentEmail">Email:</label>
+            <input type="email" name="commentEmail" id="commentEmail" value=""  />
+        </div>
+           
+        <div data-role="fieldcontain" data-theme="a">
+            <fieldset data-role="controlgroup" >
+                <legend>Activities enjoyed:</legend>
+                 <label for="commentFun_0">Biking</label>
+                <input type="checkbox" name="commentFun" id="commentFun_0"  value="Biking" /> 
+               	
+                  <label for="commentFun_1">Boating</label>
+                <input type="checkbox" name="commentFun" id="commentFun_1" value="Boating" />
+              
+                <label for="commentFun_2">Camping</label> 
+                <input type="checkbox" name="commentFun" id="commentFun_2"  value="Camping" />
+                
+                  <label for="commentFun_3">Fishing</label>
+                <input type="checkbox" name="commentFun" id="commentFun_3"  value="Fishing" />
+              
+                 <label for="commentFun_4">Hiking</label>
+                <input type="checkbox" name="commentFun" id="commentFun_4"  value="Hiking" />
+               
+               	 <label for="commentFun_5">Swimming</label>
+                <input type="checkbox" name="commentFun" id="commentFun_5"  value="Swimming" />
+               
+            </fieldset>
+          </div>
+        <div data-role="fieldcontain">
+            <label for="commentRate">Rate this park:</label>
+            <input type="range" name="commentRate" id="commentRate" value="5" min="0" max="10" />
+        </div>
+        
+        
+        <div data-role="fieldcontain">
+            <label for="commentComment">Comments:</label>
+            <textarea cols="40" rows="8" name="commentComment" id="commentComment"></textarea>
+        </div>
+        <input name="commentSubmit" type="submit" id="commentSubmit" value="Submit" data-icon="star" />
+        
+       </form> 
+        
+		<a href="#homepage" data-rel="back" data-role="button" data-icon="home"data-iconpos="left">Back to Home</a>
+            
+         </div><!-- /content -->
+
+             <div data-role="footer">
+                <h5>KA. Anderson©2014</h5>
+            </div><!-- /footer -->
+        
+        </div><!-- /page end -->
+  <!------------------------------------------------PAGE THREECOMPASS----------------------------->  
+
+        <div data-role="page3" data-theme="a" data-transition="slideup" id="compass">
+        <div data-role="header">
+        <div class="center-wrapper">
+        <a href="#theParks" data-rel="back" data-role="button" data-icon="back"data-iconpos="left">Parks</a>
+                <h1 align="center">Rampin Campin</h1>
+                <h3 align="center">Compass</h3>
+        </div>
+        </div>
+        <div data-role="content">
+        	<div id="compass" class="view">
+            <div class="container">
+            	
+            </div>
+            </div>
+           
+            <p>UNDER CONSTRUCTION----Remember the moss always grows on the north side of a tree!!! </p></ br>
+            <p>Climb a tree to see where you are!</p>
+           
+            
+            <a href="#homepage" data-rel="back" data-role="button" data-icon="home"data-iconpos="left">Back to Home</a>
+            
+         </div><!-- /content -->
+            <div data-role="footer">
+                <h5>KA. Anderson©2014</h5>
+            </div><!-- /footer -->
+            
+        </div><!--/pageend-->
+    </body>
+    </html>
