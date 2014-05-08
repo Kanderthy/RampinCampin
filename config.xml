@@ -18,8 +18,6 @@
 	<!--dos not allow scroll beyond content-->
 	<preference name="DisallowOverscroll" value="true"/>
 
-	<!--hides key additional toolbars that appear above keyboard-->
-	<preference name="HideKeyboardFormAccessoryBar" value="true"/>
 
 	
 	<name>Config.xml</name>
@@ -28,19 +26,19 @@
 		An example for phonegap build docs.
 	</description>
 	
-	<author href=" https://github.com/Kanderthy"  email="Kanderthy@yahoo.com">
+	<author href="http://kazewebdesigns.net"  email="kadesigns@kazewebdesigns.net">
 		Kathy Anderson
 	</author>
 	<!-- Splash Screen -->
 		
-	<gap:splash scr="images/smokey.png" gap:platform="ios" width"320" height="480"/>
-	<gap:splash scr="images/smokey.png" gap:platform="ios" width"640" height="960"/>
-	<gap:splash scr="images/smokey.png" gap:platform="ios" width"640" height="1136"/>
-	<gap:splash scr="images/smokey.png" gap:platform="ios" width"1024" height="748"/>
-	<gap:splash scr="images/smokey.png" gap:platform="ios" width"768" height="1004"/>
+	<gap:splash scr="jquery-mobile/images/rampinSplash.png" gap:platform="ios" width"320" height="480" />
+	<gap:splash scr="jquery-mobile/images/rampinSplash.png" gap:platform="ios" width"640" height="960" />
+	<gap:splash scr="jquery-mobile/images/rampinSplash.png" gap:platform="ios" width"640" height="1136" />
+	<gap:splash scr="jquery-mobile/images/rampinSplash.png"gap:platform="ios" width"1024" height="748" />
+	<gap:splash scr="jquery-mobile/images/rampinSplash.png"gap:platform="ios" width"768" height="1004" />
 	
 	<!--retina iPad support: PhoneGap 2.5.o+ only -->
-	<gap:splash scr="images/smokey.png" gap:platform="ios" width"2048" height="1496"/>
-	<gap:splash scr="images/smokey.png" gap:platform="ios" width"1536" height="2008"/>
+	<gap:splash scr="jquery-mobile/images/rampinSplash.png"gap:platform="ios" width"2048" height="1496" />
+	<gap:splash scr="jquery-mobile/images/rampinSplash.png" gap:platform="ios" width"1536" height="2008" />
 	
 	</widget>
