@@ -25,7 +25,7 @@
       Kathy Anderson
    </author>
    <!--icon-->
-   <icon src="jquery-mobile/images/R_C.png"
+   <icon src="icon.png"/>
    <!-- Splash Screen -->
    <gap:splash src="rampinSplash.png"gap:platform="ios" width="320" height="480" />
    <gap:splash src="rampinSplash.png"gap:platform="ios" width="640" height="960" />
