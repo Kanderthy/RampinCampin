@@ -26,6 +26,11 @@
    </author>
    <!--icon-->
    <icon src="icon.png"/>
+   
+   <icon gap:platform="ios" height="57" src="icon.png" width="57" />
+   <icon gap:platform="ios" height="72" src="icon.png" width="72" />
+   <icon gap:platform="ios" height="114" src="icon.png" width="114" />
+   <icon gap:platform="ios" height="144" src="icon.png" width="144" />
    <!-- Splash Screen -->
    <gap:splash src="rampinSplash.png"gap:platform="ios" width="320" height="480" />
    <gap:splash src="rampinSplash.png"gap:platform="ios" width="640" height="960" />
